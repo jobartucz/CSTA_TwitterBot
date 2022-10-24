@@ -19,7 +19,22 @@ if (debugging) {
 } else {
   // find latest tweet according the query 'q' in params
   var retweet = function () {
-    console.log("Running retweet");
+    let currentdate = new Date();
+    let datetime =
+      "Last Sync: " +
+      currentdate.getDate() +
+      "/" +
+      (currentdate.getMonth() + 1) +
+      "/" +
+      currentdate.getFullYear() +
+      " @ " +
+      currentdate.getHours() +
+      ":" +
+      currentdate.getMinutes() +
+      ":" +
+      currentdate.getSeconds();
+    console.log("Running retweet at " + datetime);
+
     var params = {
       q: "list:1579932130855251969", // REQUIRED
       result_type: "recent",
