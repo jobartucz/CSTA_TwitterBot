@@ -33,7 +33,7 @@ if (debugging) {
       currentdate.getMinutes() +
       ":" +
       currentdate.getSeconds();
-    console.log("Running retweet at " + datetime);
+    console.log(datetime);
 
     var params = {
       q: "list:1579932130855251969", // REQUIRED
