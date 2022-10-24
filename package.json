@@ -1,0 +1,23 @@
+{
+  "name": "csta_twitterbot",
+  "version": "1.0.0",
+  "description": "CSTA retweets useful stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobartucz/CSTA_TwitterBot.git"
+  },
+  "keywords": [
+    "CSTA",
+    "Twitter"
+  ],
+  "author": "John Bartucz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jobartucz/CSTA_TwitterBot/issues"
+  },
+  "homepage": "https://github.com/jobartucz/CSTA_TwitterBot#readme"
+}
