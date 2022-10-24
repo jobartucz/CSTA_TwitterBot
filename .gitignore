@@ -1,3 +1,6 @@
+#private info
+.keys
+
 # Logs
 logs
 *.log
