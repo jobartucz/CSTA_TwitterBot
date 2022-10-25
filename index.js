@@ -114,5 +114,5 @@ if (debugging) {
 
   retweet();
 
-  setInterval(retweet, 300000);
+  // setInterval(retweet, 300000);
 }
