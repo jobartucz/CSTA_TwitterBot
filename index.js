@@ -3,7 +3,7 @@ console.log("CSTA Retweet Bot");
 require("dotenv").config();
 
 var twit = require("twit");
-var config = require("./config.js");
+var config = require("/home/jbartucz/javascript/CSTA_TwitterBot/config.js");
 
 var Twitter = new twit(config);
 
