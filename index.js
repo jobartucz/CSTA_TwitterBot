@@ -7,8 +7,11 @@ var config = require("/home/jbartucz/javascript/CSTA_TwitterBot/config.js");
 
 var Twitter = new twit(config);
 
-var debugging = false;
+var debugging = true;
 if (debugging) {
+  
+  console.log(config);
+  
   Twitter.get(
     "search/tweets",
     { q: "list:1579932130855251969", count: 10 },
