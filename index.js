@@ -50,7 +50,9 @@ if (debugging) {
           "Tweeting: " +
             data.statuses[0].id_str +
             " Message: " +
-            data.statuses[0].text
+            data.statuses[0].text +
+            " Date: " +
+            data.statuses[0].created_at
         );
         // grab ID of tweet to retweet
         retweetId = data.statuses[0].id_str;
@@ -85,7 +87,9 @@ if (debugging) {
           "Tweeting: " +
             data.statuses[1].id_str +
             " Message: " +
-            data.statuses[1].text
+            data.statuses[1].text +
+            " Date: " +
+            data.statuses[0].created_at
         );
         // grab ID of tweet to retweet
         retweetId = data.statuses[1].id_str;
